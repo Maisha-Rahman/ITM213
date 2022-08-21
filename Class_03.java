@@ -18,14 +18,8 @@ public class Class_03 {
         Scanner sc= new Scanner(System.in);
         System.out.print("n=");
         n=sc.nextInt();
-        if(n<11){
-           for(i=1;i<11;i++){
-            System.out.println(n+" X "+i+" = "+ n*i);
-            
-        } 
-        }
-        else{
-            System.out.println("n should be between 1 to 10");
+        for(i=1;i<=n;i++){
+            System.out.println("Number is : "+i+" and cube of "+i+" is :"+ i*i*i);
         }
         
         
