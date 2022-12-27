@@ -3,7 +3,7 @@ package atm_machine;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class atm extends operation{
+public class main_atm extends operation{
 
 	private static Scanner in;
 
